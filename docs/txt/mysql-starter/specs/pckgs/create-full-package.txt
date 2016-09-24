@@ -1,0 +1,8 @@
+the create create-full-package action should produce a zip file with the following naming
+convention:
+../mysql-starter.<<version>>.<<env-type>>.YYYYmmdd_HHMMSS.<<host-name>>.zip
+../mysql-starter.1.0.5.dev.20160918_224517.lp-nl-host.zip
+
+in the product dir
+
+as well as in the network backup dir ( if there is configured one in the configuration file )
